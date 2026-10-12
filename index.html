@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Un ricettario personale per cucinare all’estero senza complicarsi troppo la vita.">
+  <title>Ricette di un fuorisede all’estero</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/brand.css">
+  <script defer src="js/app.js?v=20261012-2"></script>
+</head>
+<body>
+  <header class="site-header"><a id="brand-name" class="wordmark" href="index.html"><span class="brand-main" data-i18n="brandMain">Ricette di un fuorisede all’estero</span><span class="brand-aside" data-i18n="brandAside">(che odia lavare i piatti e le verdure)</span></a>
+    <nav class="desktop-nav" aria-label="Navigazione principale"><a href="#recipes" data-nav="recipes" data-i18n="navRecipes">Ricette</a><a href="#cook" data-nav="cook" data-i18n="navCook">Che cosa mi cucino?</a><a href="#favorites" data-nav="favorites" data-i18n="navFavorites">Preferiti</a><a href="#about" data-nav="about" data-i18n="navAbout">Come funziona</a></nav>
+    <div class="languages" aria-label="Lingua"><button data-language="it" aria-label="Italiano">🇮🇹</button><span>|</span><button data-language="en" aria-label="English">🇬🇧</button></div>
+  </header>
+  <main>
+    <section class="intro"><p class="eyebrow" data-i18n="eyebrow">Il mio ricettario, ovunque mi trovi</p><h1 data-i18n="title">Ricette di un fuorisede</h1><p data-i18n="intro">Cose buone, semplici da preparare e poche stoviglie da lavare.</p></section>
+    <section id="recipes" class="view active" aria-label="Ricette">
+
+      <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" data-placeholder="search" placeholder="Cerca una ricetta, in italiano o inglese…"></label>
+        <div class="filters"><label><span data-i18n="category">Categoria</span><select id="category"><option value="" data-i18n="catAll">Tutte</option><option value="pig" data-i18n="catPig">🐷 Maiale</option><option value="beef" data-i18n="catBeef">🐮 Manzo</option><option value="chicken" data-i18n="catChicken">🐔 Pollo</option><option value="fish" data-i18n="catFish">🐟 Pesce</option><option value="vegetarian" data-i18n="catVegetarian">🥕 Vegetariano</option></select></label>
+          <label><span data-i18n="maxEffort">Sbatta max</span><select id="effort"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+          <label><span data-i18n="minScale">Scalabilità min</span><select id="scale"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+        </div>
+      </div>
+      <details class="more-filters"><summary data-i18n="moreFilters">Filtri aggiuntivi</summary><div class="advanced"><label><span data-i18n="tags">Tag</span><select id="tag"><option value="" data-i18n="allTags">Tutti i tag</option></select></label><label><span data-i18n="sort">Ordina per</span><select id="sort"><option value="">—</option><option value="value" data-i18n="value">Convenienza</option><option value="effort" data-i18n="effort">Sbatta</option><option value="scale" data-i18n="scalability">Scalabilità</option></select></label><label><span data-i18n="direction">Direzione</span><select id="direction"><option value="asc" data-i18n="ascending">Crescente</option><option value="desc" data-i18n="descending">Decrescente</option></select></label><button class="text-button" id="reset" data-i18n="reset">Azzera filtri</button></div></details>
+      <div class="results-head"><p id="result-count" aria-live="polite"></p><div class="layout-toggle"><button id="grid-mode" class="selected" aria-label="Griglia">▦</button><button id="list-mode" aria-label="Lista compatta">☷</button></div></div>
+      <div id="recipe-list" class="recipe-grid"></div><p id="empty" class="empty-state" hidden></p>
+
+    </section>
+    <section id="cook" class="view" hidden><div class="section-heading"><div><p class="eyebrow" data-i18n="pantryEyebrow">La dispensa di casa</p><h2 data-i18n="cookTitle">Che cosa mi cucino?</h2><p data-i18n="cookDesc">Seleziona quello che hai: la quantità è un problema a cui penserai domani domani.</p></div><button id="clear-pantry" class="text-button" data-i18n="clearSelection">Svuota selezione</button></div><label class="search pantry-search"><span>⌕</span><input id="ingredient-search" type="search" placeholder="Cerca un ingrediente…" data-placeholder="ingredientSearch"></label><div id="ingredient-groups" class="ingredient-groups"></div><div id="cook-results"></div></section>
+    <section id="favorites" class="view" hidden><div class="section-heading"><div><p class="eyebrow" data-i18n="saved">Da rifare</p><h2 data-i18n="favoritesTitle">I miei preferiti</h2></div></div><div id="favorite-list" class="recipe-grid"></div><p id="favorite-empty" class="empty-state" hidden></p></section>
+      <section id="about" class="view" hidden><div class="cookbook-about" aria-labelledby="about-title">
+        <div class="about-language" data-about="it">
+          <h2 id="about-title">Come funziona il ricettario 🍲</h2>
+          <p>Ogni ricetta è valutata secondo due parametri:</p>
+          <ul><li><strong>Sbatta ⭐️</strong>: considera il tempo di preparazione, la quantità di stoviglie utilizzate e il tempo necessario per lavarle.</li><li><strong>Scalabilità ⭐️</strong>: indica quanto una ricetta si presta a essere preparata in quantità maggiori e consumata in più pasti.</li></ul>
+          <p>La <strong>convenienza</strong> si calcola dividendo la scalabilità per la sbatta: più il valore è alto, più la ricetta è conveniente!</p>
+          <h3>Cosa posso cucinare? 🥘</h3>
+          <p>Nella sezione <em>Ricette</em> puoi consultare tutte le ricette disponibili.</p>
+          <p>Nella sezione <em>Che cosa mi cucino?</em>, invece, puoi selezionare gli ingredienti che hai in casa. Il ricettario ti mostrerà le ricette che puoi preparare, indicando anche quelle per cui ti manca qualche ingrediente.</p>
+          <p>Gli ingredienti in corsivo nelle ricette sono facoltativi.</p>
+          <p>Elementi come acqua e ghiaccio possono essere aggiunti come voci: restano visibili nella ricetta, ma non vengono trattati come ingredienti della dispensa e non contano come mancanti.</p>
+        </div>
+        <div class="about-language" data-about="en" hidden>
+          <h2>How this cookbook works 🍲</h2>
+          <p>Each recipe is rated according to two criteria:</p>
+          <ul><li><strong>Effort ⭐️</strong>: takes into account preparation time, the number of dishes and utensils used, and the time needed to wash them.</li><li><strong>Scalability ⭐️</strong>: indicates how suitable a recipe is for making larger batches and eating over multiple meals.</li></ul>
+          <p>The <strong>score</strong> is calculated by dividing scalability by effort: the higher the score, the more convenient the recipe!</p>
+          <h3>What should I cook? 🥘</h3>
+          <p>In the <em>Recipes</em> section, you can browse all available recipes.</p>
+          <p>In the <em>What should I cook?</em> section, you can select the ingredients you have at home. The cookbook will show you which recipes you can make, including those for which you’re missing one or more ingredients.</p>
+          <p>Ingredients shown in italics in a recipe are optional.</p>
+          <p>Items such as water and ice can be added as entries: they remain visible in the recipe but are not treated as pantry ingredients and never count as missing.</p>
+        </div>
+      </div></section>
+  </main>
+  <nav class="mobile-nav" aria-label="Navigazione principale"><a href="#recipes" data-nav="recipes"><span>▦</span><b data-i18n="navRecipes">Ricette</b></a><a href="#cook" data-nav="cook"><span>＋</span><b data-i18n="navCook">Che cosa mi cucino?</b></a><a href="#favorites" data-nav="favorites"><span>♡</span><b data-i18n="navFavorites">Preferiti</b></a><a href="#about" data-nav="about"><span>ⓘ</span><b data-i18n="navAbout">Come funziona</b></a></nav>
+  <footer><span data-about="it">Fatto con quello che c’era in frigo.</span><span data-about="en" hidden>Made with whatever was in the fridge.</span></footer>
+</body></html>

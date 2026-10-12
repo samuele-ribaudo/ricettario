@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "recipes": [
+    {
+      "id": "pasta-ai-fagioli",
+      "slug": "pasta-ai-fagioli",
+      "file": "data/recipes/pasta-ai-fagioli.json"
+    },
+    {
+      "id": "pollo-al-curry",
+      "slug": "pollo-al-curry",
+      "file": "data/recipes/pollo-al-curry.json"
+    },
+    {
+      "id": "polpette-della-nonna",
+      "slug": "polpette-della-nonna",
+      "file": "data/recipes/polpette-della-nonna.json"
+    },
+    {
+      "id": "pesto",
+      "slug": "pesto",
+      "file": "data/recipes/pesto.json"
+    }
+  ]
+}

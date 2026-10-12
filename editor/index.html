@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1efe7">
+  <meta name="theme-color" content="#171a17" media="(prefers-color-scheme: dark)">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Crea ricette compatibili con il ricettario e scarica il JSON da aggiungere al progetto.">
+  <title>Editor ricette | Ricettario</title>
+  <link rel="stylesheet" href="editor.css">
+  <link rel="stylesheet" href="export.css">
+  <link rel="stylesheet" href="theme.css">
+  <script defer src="editor.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">R</span><span>Ricettario<small>EDITOR LOCALE</small></span></a>
+    <div class="top-actions"><a class="site-link" href="../index.html">← Torna al sito</a></div>
+  </header>
+
+  <main>
+    <div class="page-heading"><div><p class="eyebrow">NUOVA SCHEDA</p><h1>Una ricetta alla volta.</h1><p class="subtitle">Compila i campi e genera il file JSON da aggiungere al ricettario.</p></div><span class="schema-badge">SCHEMA 01</span></div>
+
+    <div class="layout">
+      <form id="recipe-form" novalidate>
+        <section class="section-block" aria-labelledby="identity-heading">
+          <div class="section-heading"><span class="section-number">01</span><div><h2 id="identity-heading">Identità</h2><p>Il titolo italiano genera lo slug automaticamente.</p></div></div>
+          <div class="fields two-columns">
+            <label class="field"><span>Titolo in italiano <i>*</i></span><input name="titleIt" required placeholder="Pasta ai fagioli"></label>
+            <label class="field"><span>Titolo in inglese</span><input name="titleEn" placeholder="Pasta and beans"></label>
+            <label class="field"><span>ID e slug <i>*</i></span><input name="slug" required pattern="[a-z0-9]+(?:-[a-z0-9]+)*" autocomplete="off" placeholder="pasta-ai-fagioli"><small>Minuscole, numeri e trattini; deve essere unico nel ricettario.</small></label>
+            <label class="field"><span>Percorso foto</span><input name="image" placeholder="images/recipes/pasta-ai-fagioli.jpg"><small>Carica la foto in images/recipes/; lascia vuoto se non ne hai una.</small></label>
+          </div>
+          <div class="fields three-columns rating-fields">
+            <label class="field"><span>Porzioni <i>*</i></span><input name="servings" type="number" min="1" step="1" value="1" required></label>
+            <label class="field"><span>Sbatta <i>*</i></span><select name="effort" required><option value="1">1 · Minima</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5 · Massima</option></select></label>
+            <label class="field"><span>Scalabilità <i>*</i></span><select name="scale" required><option value="1">1 · Bassa</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5 · Alta</option></select></label>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="tags-heading">
+          <div class="section-heading"><span class="section-number">02</span><div><h2 id="tags-heading">Tag</h2><p>Etichette bilingui che aiutano a trovare la ricetta.</p></div><button class="button button-light button-small" type="button" data-action="add-tag"><span aria-hidden="true">＋</span> Aggiungi tag</button></div>
+          <div id="tags" class="tag-list"></div>
+        </section>
+
+        <section class="section-block" aria-labelledby="ingredients-heading">
+          <div class="section-heading"><span class="section-number">03</span><div><h2 id="ingredients-heading">Ingredienti</h2><p>Organizza gli ingredienti in gruppi e aggiungi voci che non fanno parte della dispensa.</p></div></div>
+          <div id="ingredients" class="ingredient-list"></div>
+          <div class="heading-actions ingredient-actions"><button class="button button-light button-small" type="button" data-action="add-group"><span aria-hidden="true">＋</span> Gruppo</button><button class="button button-light button-small" type="button" data-action="add-ingredient"><span aria-hidden="true">＋</span> Ingrediente</button><button class="button button-light button-small" type="button" data-action="add-entry"><span aria-hidden="true">＋</span> Voce</button></div>
+          <p class="field-note">Le voci vengono mostrate nella ricetta, ma non compaiono nella dispensa né vengono conteggiate tra gli ingredienti mancanti. Per un ingrediente senza quantità, inserisci l’indicazione (per esempio “q.b.” / “to taste”) nel campo unità: verrà mostrata da sola.</p>
+        </section>
+
+        <section class="section-block text-section" aria-labelledby="method-heading">
+          <div class="section-heading"><span class="section-number">04</span><div><h2 id="method-heading">Procedimento</h2><p>Separa i paragrafi con una riga vuota.</p></div></div>
+          <div class="fields two-columns">
+            <label class="field"><span>Italiano <i>*</i></span><textarea name="methodIt" rows="7" required placeholder="Descrivi i passaggi, uno dopo l'altro."></textarea></label>
+            <label class="field"><span>English</span><textarea name="methodEn" rows="7" placeholder="Write the steps in English."></textarea></label>
+          </div>
+        </section>
+
+        <section class="section-block text-section" aria-labelledby="notes-heading">
+          <div class="section-heading"><span class="section-number">05</span><div><h2 id="notes-heading">Note e conservazione</h2><p>Facoltative; non compaiono nel sito se lasciate vuote.</p></div></div>
+          <div class="fields two-columns">
+            <label class="field"><span>Note · Italiano</span><textarea name="notesIt" rows="3" placeholder="Varianti, consigli, sostituzioni…"></textarea></label>
+            <label class="field"><span>Notes · English</span><textarea name="notesEn" rows="3"></textarea></label>
+            <label class="field"><span>Conservazione · Italiano</span><textarea name="storageIt" rows="3" placeholder="In frigorifero, in un contenitore chiuso…"></textarea></label>
+            <label class="field"><span>Storage · English</span><textarea name="storageEn" rows="3"></textarea></label>
+          </div>
+        </section>
+        <div class="export-actions"><button class="button button-dark" id="download" type="button"><span aria-hidden="true">↓</span> Genera e scarica JSON</button><span>Il file verrà salvato sul tuo dispositivo.</span></div>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <section class="generated-result" id="generated-result" aria-labelledby="generated-heading" hidden>
+      <div class="generated-heading"><div><p class="eyebrow">PROSSIMO PASSAGGIO</p><h2 id="generated-heading">Aggiungi la ricetta al sito</h2></div><span class="download-check" aria-hidden="true">✓</span></div>
+      <p id="generated-message" class="generated-message"></p>
+      <div class="index-instructions">
+        <div><h3>Aggiorna recipes-index.json</h3><p>Apri il file nella cartella principale del progetto. Dentro l’array <code>"recipes"</code>, incolla questa voce prima della parentesi quadra <code>]</code> di chiusura:</p><ol><li>Se l’ultima voce esistente non ha la virgola, aggiungila dopo la sua parentesi graffa <code>}</code>.</li><li>Incolla la nuova voce qui sotto, senza aggiungere una virgola dopo l’ultima voce dell’array.</li><li>Salva <code>recipes-index.json</code>. Controlla che il JSON resti valido.</li></ol></div>
+        <div class="index-copy"><pre id="index-snippet"></pre><button class="button button-copy" id="copy-index" type="button">Copia voce indice</button><span id="copy-status" role="status" aria-live="polite"></span></div>
+      </div>
+      <p class="generated-footer">Metti il file scaricato in <code>data/recipes/</code>. Poi ricarica il sito per verificare la ricetta. Per pubblicarla, carica su GitHub sia il file JSON sia <code>recipes-index.json</code>.</p>
+    </section>
+  </main>
+  <footer><span>RICETTARIO · EDITOR LOCALE</span><a href="../README.md">Guida completa</a></footer>
+</body>
+</html>

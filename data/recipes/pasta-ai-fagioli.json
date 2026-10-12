@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "pasta-ai-fagioli",
+  "slug": "pasta-ai-fagioli",
+  "title": {
+    "it": "Pasta ai fagioli",
+    "en": "Pasta and beans"
+  },
+  "image": "images/recipes/pasta-ai-fagioli.jpg",
+  "tags": [
+    {
+      "it": "con solo una pentola",
+      "en": "one pot meal"
+    }
+  ],
+  "servings": 1,
+  "effort": 1,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Ditaloni rigati",
+        "en": "Ditaloni rigati"
+      },
+      "quantity": "100",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "ditaloni-rigati"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pancetta",
+        "en": "Pancetta"
+      },
+      "quantity": "60",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "pig",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "pancetta"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine d'oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaio",
+        "en": "spoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Cipolla",
+        "en": "Onion"
+      },
+      "quantity": "1/2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "cipolla"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Fagioli pre cotti",
+        "en": ""
+      },
+      "quantity": "140",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "fagioli"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Concentrato di pomodoro",
+        "en": "Tomato paste"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaio",
+        "en": "table spoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "concentrato-di-pomodoro"
+    },
+    {
+      "type": "entry",
+      "name": {
+        "it": "Acqua",
+        "en": "Water"
+      },
+      "quantity": "300",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      }
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pepe",
+        "en": "Black pepper"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "pepe"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Dado per brodo",
+        "en": "Stock cube"
+      },
+      "quantity": "1/2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "dado-per-brodo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Rosmarino",
+        "en": "Rosemary"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "rosmarino"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Aglio (anche in polvere)",
+        "en": "Garlic (garlic powder also works)"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "aglio"
+    }
+  ],
+  "method": {
+    "it": "Rosolare la pancetta con l’olio in una pentola a fuoco medio-alto. Una volta dorata, aggiungere la cipolla e mescolare per farla soffriggere nel grasso.\n\nAggiungere i fagioli, il dado, l’aglio, il pepe, il rosmarino e il concentrato di pomodoro. Schiacciare qualche fagiolo con il cucchiaio, poi aggiungere l’acqua e portare a bollore.\n\nAggiungere la pasta e mescolare finché non ha assorbito tutta l’acqua.",
+    "en": "Brown the pancetta with the olive oil in a pot over medium-high heat. Once golden, add the onion and stir to let it sauté in the rendered fat.\n\nAdd the beans, stock cube, garlic, pepper, rosemary, and tomato paste. Mash a few beans with a spoon, then add the water and bring to a boil.\n\nAdd the pasta and stir until it has absorbed all the water."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "",
+    "en": ""
+  }
+}

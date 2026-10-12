@@ -1,0 +1,3 @@
+.wordmark{max-width:360px;white-space:normal;line-height:1.2}
+.wordmark .brand-main{display:block;color:var(--ink);font-weight:700;letter-spacing:inherit}
+.wordmark .brand-aside{display:block;margin-top:2px;color:var(--muted);font-size:.72em;font-weight:400;letter-spacing:0;line-height:1.25}

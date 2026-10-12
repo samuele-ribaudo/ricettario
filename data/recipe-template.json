@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "slug-stabile",
+  "slug": "slug-stabile",
+  "title": { "it": "Titolo italiano", "en": "" },
+  "image": "",
+  "tags": [
+    { "it": "Tag italiano", "en": "English tag" }
+  ],
+  "servings": 1,
+  "effort": 1,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "item",
+      "ingredientId": "ingredient-id-normalizzato",
+      "name": { "it": "Nome ingrediente", "en": "" },
+      "quantity": "100",
+      "unit": { "it": "g", "en": "g" },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta"
+    },
+    {
+      "type": "group",
+      "name": { "it": "Nome gruppo", "en": "" },
+      "items": []
+    },
+    {
+      "type": "entry",
+      "name": { "it": "Acqua", "en": "Water" },
+      "quantity": "300",
+      "unit": { "it": "ml", "en": "ml" }
+    }
+  ],
+  "method": { "it": "Paragrafo del procedimento.\n\nSecondo paragrafo.", "en": "" },
+  "notes": { "it": "", "en": "" },
+  "storage": { "it": "", "en": "" }
+}

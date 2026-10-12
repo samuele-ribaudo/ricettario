@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "pesto",
+  "slug": "pesto",
+  "title": {
+    "it": "Pesto",
+    "en": "Pesto"
+  },
+  "image": "images/recipes/pesto.jpg",
+  "tags": [
+    {
+      "it": "Sugo",
+      "en": "Sauce"
+    }
+  ],
+  "servings": 6,
+  "effort": 2,
+  "scale": 5,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Basilico",
+        "en": "Basil"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "pianta",
+        "en": "plant"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "basilico"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Parmigiano",
+        "en": "Parmesan cheese"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "parmigiano"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pinoli",
+        "en": "Pine nuts"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "pinoli"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine di oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Aglio (anche in polvere)",
+        "en": "Garlic (garlic powder also works)"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "aglio"
+    },
+    {
+      "type": "entry",
+      "name": {
+        "it": "Ghiaccio",
+        "en": "Ice"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cubetto",
+        "en": "cube"
+      }
+    }
+  ],
+  "method": {
+    "it": "Staccare tutte le foglie dalla pianta di basilico e pesarle (da una piantina si ricavano circa 40 g). Lavare le foglie in acqua fredda e asciugarle delicatamente tamponandole con un canovaccio.\n\nPer ogni grammo di basilico, aggiungere la stessa quantità di parmigiano grattugiato (o tagliato a piccoli pezzi) e di olio extravergine d’oliva, metà del peso del basilico in pinoli, ½ spicchio d’aglio e un cubetto di ghiaccio. Frullare il tutto fino a ottenere un composto cremoso e omogeneo.",
+    "en": "Remove all the leaves from the basil plant and weigh them (one plant yields approximately 40 g). Rinse the leaves in cold water and gently pat them dry with a clean kitchen towel.\n\nFor every gram of basil, add the same amount of grated parmesan (or parmesan cut into small pieces) and extra virgin olive oil, half that weight in pine nuts, ½ garlic clove, and one ice cube. Blend everything until smooth and creamy."
+  },
+  "notes": {
+    "it": "Il cubetto di ghiaccio non è necessario. Serve a evitare che il basilico si ossidi, mantenendo il colore del pesto verde chiaro.",
+    "en": "The ice cube is optional. It helps prevent the basil from oxidizing, keeping the pesto a bright green color."
+  },
+  "storage": {
+    "it": "Versare il pesto negli stampi per cubetti di ghiaccio, così da conservarlo già porzionato. Una volta congelato, trasferire i cubetti in un contenitore o sacchetto adatto al congelatore. Per utilizzarlo mettere un cubetto con 2 cucchiai di acqua di cottura in microonde per 1 minuto e successivamente aggiungere un filo d’olio extravergine di oliva.",
+    "en": "Pour the pesto into ice cube trays to freeze it in individual portions. Once frozen, transfer the cubes to a freezer-safe container or bag. To use, microwave one cube with 2 tablespoons of pasta cooking water for 1 minute, then add a drizzle of extra virgin olive oil."
+  }
+}

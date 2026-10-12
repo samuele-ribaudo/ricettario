@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "pollo-al-curry",
+  "slug": "pollo-al-curry",
+  "title": {
+    "it": "Pollo al curry",
+    "en": "Curry chicken"
+  },
+  "image": "images/recipes/pollo-al-curry.jpg",
+  "tags": [],
+  "servings": 2,
+  "effort": 2,
+  "scale": 2,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Petto di pollo",
+        "en": "Chicken breast"
+      },
+      "quantity": "400",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "chicken",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "petto-di-pollo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine di oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "cucchiai",
+        "en": "tablespoons"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Burro",
+        "en": "Butter"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "noce",
+        "en": "knob"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "burro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Latte",
+        "en": "Milk"
+      },
+      "quantity": "200",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "latte"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Maizena",
+        "en": "Cornstarch"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaio",
+        "en": "tablespoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "maizena"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Sale",
+        "en": "Salt"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "sale"
+    },
+    {
+      "type": "group",
+      "name": {
+        "it": "Spezie",
+        "en": "Spices"
+      },
+      "items": [
+        {
+          "type": "item",
+          "name": {
+            "it": "Curry",
+            "en": "Curry powder"
+          },
+          "quantity": "1",
+          "unit": {
+            "it": "cucchiaio",
+            "en": "tablespoon"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "curry"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Paprika",
+            "en": "Paprika"
+          },
+          "quantity": "1",
+          "unit": {
+            "it": "cucchiaino",
+            "en": "cucchiaino"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "paprika"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Curcuma",
+            "en": "Tumeric"
+          },
+          "quantity": "1",
+          "unit": {
+            "it": "cucchiaino",
+            "en": "teaspoon"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "curcuma"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Pepe",
+            "en": "Black pepper"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "pepe"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Aglio in polvere",
+            "en": "Garlic powder"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🥕 Verdura e frutta",
+          "ingredientId": "aglio"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Peperoncino",
+            "en": "Chili flakes"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "peperoncino"
+        }
+      ]
+    }
+  ],
+  "method": {
+    "it": "Scaldare il latte in un pentolino a fuoco basso insieme alle spezie, mescolando di tanto in tanto.\n\nNel frattempo, tagliare il pollo a pezzetti e infarinarlo leggermente con la maizena.\n\nScaldare una padella con olio e burro e rosolare il pollo a fuoco vivace per circa 6 minuti, finché sarà ben dorato.\n\nAggiungere il latte speziato e cuocere a fuoco basso per 4–5 minuti, mescolando, fino a quando il sugo si sarà addensato.\n\nServire accompagnato da riso.",
+    "en": "Heat the milk in a small saucepan over low heat with the spices, stirring occasionally.\n\nMeanwhile, cut the chicken into bite-sized pieces and lightly coat them with cornstarch.\n\nHeat the olive oil and butter in a skillet and sear the chicken over high heat for about 6 minutes, until golden brown.\n\nAdd the spiced milk and cook over low heat for 4–5 minutes, stirring until the sauce thickens.\n\nServe with rice."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "Conservare in frigorifero per un massimo di 3 giorni e riscaldare in microonde.",
+    "en": "Store in the refrigerator for up to 3 days and reheat in the microwave."
+  }
+}

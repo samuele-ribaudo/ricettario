@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "polpette-della-nonna",
+  "slug": "polpette-della-nonna",
+  "title": {
+    "it": "Polpette della nonna",
+    "en": "Grandma's meatballs"
+  },
+  "image": "images/recipes/polpette-della-nonna.jpg",
+  "tags": [
+    {
+      "it": "nonna",
+      "en": "grandma"
+    },
+    {
+      "it": "tradizione",
+      "en": "tradition"
+    }
+  ],
+  "servings": 3,
+  "effort": 5,
+  "scale": 3,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Macinato di manzo",
+        "en": "Ground beef"
+      },
+      "quantity": "500",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "beef",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "macinato-di-manzo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Patate",
+        "en": "Potatoes"
+      },
+      "quantity": "3",
+      "unit": {
+        "it": "medie",
+        "en": "medium sized"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "patate"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Uova",
+        "en": "Eggs"
+      },
+      "quantity": "3",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "uova"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Sale",
+        "en": "Salt"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "sale"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Parmigiano grattugiato",
+        "en": "Grated parmesan cheese"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "cucchiai",
+        "en": "tablespoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "parmigiano"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pangrattato",
+        "en": "Breadcrumbs"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "pangrattato"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Maggiorana",
+        "en": "Marjoram"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "maggiorana"
+    }
+  ],
+  "method": {
+    "it": "Pelare le patate e tagliarle a cubetti. Metterle in una pentola con acqua fredda e un pizzico di sale. Portare a ebollizione e cuocere per 15–20 minuti, finché non saranno morbide. Scolare e schiacciare le patate con una forchetta.\n\nAggiungere la carne, le uova, il parmigiano grattugiato, la maggiorana e un pizzico di sale. Mescolare fino a ottenere un composto omogeneo.\n\nFormare le polpette della dimensione desiderata e passarle nel pangrattato, ricoprendole uniformemente.\n\nFriggere le polpette in una padella con abbondante olio di semi, a fuoco alto, fino a quando saranno ben dorate e croccanti.",
+    "en": "Peel the potatoes and cut them into cubes. Place them in a pot of cold water with a pinch of salt. Bring to a boil and cook for 15–20 minutes, until soft. Drain and mash the potatoes with a fork.\n\nAdd the ground beef, eggs, grated parmesan, marjoram, and a pinch of salt. Mix until well combined.\n\nShape the mixture into meatballs of your desired size and coat them evenly with breadcrumbs.\n\nFry the meatballs in a skillet with plenty of vegetable oil over high heat until golden brown and crispy."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "Conservare in frigo per un massimo di tre giorni, o surgelarle. Riscaldarle in friggitrice ad aria a 170 gradi per 14 minuti.",
+    "en": "Store in the refrigerator for up to three days, or freeze them. Reheat in an air fryer at 170°C (340°F) for 14 minutes."
+  }
+}
