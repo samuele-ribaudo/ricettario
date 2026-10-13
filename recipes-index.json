@@ -2,9 +2,19 @@
   "schemaVersion": 1,
   "recipes": [
     {
+      "id": "pollo-alla-cacciatora",
+      "slug": "pollo-alla-cacciatora",
+      "file": "data/recipes/pollo-alla-cacciatora.json"
+    },
+    {
       "id": "pasta-ai-fagioli",
       "slug": "pasta-ai-fagioli",
       "file": "data/recipes/pasta-ai-fagioli.json"
+    },
+    {
+      "id": "minestra-arancione",
+      "slug": "minestra-arancione",
+      "file": "data/recipes/minestra-arancione.json"
     },
     {
       "id": "pollo-al-curry",
@@ -17,9 +27,19 @@
       "file": "data/recipes/polpette-della-nonna.json"
     },
     {
+      "id": "castagne-arrosto",
+      "slug": "castagne-arrosto",
+      "file": "data/recipes/castagne-arrosto.json"
+    },
+    {
       "id": "pesto",
       "slug": "pesto",
       "file": "data/recipes/pesto.json"
+    },
+    {
+      "id": "minestrina",
+      "slug": "minestrina",
+      "file": "data/recipes/minestrina.json"
     }
   ]
 }

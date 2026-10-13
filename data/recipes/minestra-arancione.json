@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "minestra-arancione",
+  "slug": "minestra-arancione",
+  "title": {
+    "it": "Minestra arancione",
+    "en": "Orange vegetable soup"
+  },
+  "image": "images/recipes/minestra-arancione.jpg",
+  "tags": [
+    {
+      "it": "con solo una pentola",
+      "en": "one pot meal"
+    }
+  ],
+  "servings": 5,
+  "effort": 3,
+  "scale": 5,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Zucca",
+        "en": "Pumpkin"
+      },
+      "quantity": "400",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "zucca"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Patate",
+        "en": "Potatoes"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "patate"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Carote",
+        "en": "Carrots"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "carote"
+    },
+    {
+      "type": "entry",
+      "name": {
+        "it": "Acqua",
+        "en": "Water"
+      },
+      "quantity": "600",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      }
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Dado per brodo",
+        "en": "Stock cube"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "dado-per-brodo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine d'oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Sale",
+        "en": "Salt"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "sale"
+    }
+  ],
+  "method": {
+    "it": "Pelare tutte le verdure e tagliarle a cubetti di circa 2–3 cm. Tritare grossolanamente la cipolla.\n\nScaldare un filo d’olio in una pentola e far appassire la cipolla per qualche minuto. Aggiungere le verdure e farle insaporire per qualche minuto, mescolando.\n\nAggiungere l’acqua e il dado. Portare a bollore e cuocere per 30–40 minuti a fuoco lento, o finché le verdure non risultano completamente morbide.\n\nFrullare il tutto fino a ottenere una consistenza omogenea. Salare a piacere.",
+    "en": "Peel all the vegetables and cut them into approximately 2–3 cm cubes. Roughly chop the onion.\n\nHeat a drizzle of olive oil in a pot and sauté the onion for a few minutes. Add the vegetables and cook for a few minutes, stirring occasionally.\n\nAdd the water and stock cube. Bring to a boil and simmer over low heat for 30–40 minutes, or until the vegetables are completely tender.\n\nBlend everything until smooth. Add salt to taste."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "Lasciare raffreddare e suddividere in porzioni, quindi surgelare.\n\nPer consumarla, scongelare la minestra in microonde per 3 minuti. Trasferirla in una pentola con mezzo bicchiere d’acqua.\n\nCuocere 60–80 g di pastina per porzione, lasciandola leggermente al dente, quindi terminare la cottura direttamente nella minestra.",
+    "en": "Let the soup cool, divide it into portions, and freeze.\n\nTo serve, defrost the soup in the microwave for 3 minutes. Transfer it to a pot with half a glass of water.\n\nAdd 60–80 g of small pasta per serving. Cook until slightly underdone, then finish cooking the pasta directly in the soup."
+  }
+}

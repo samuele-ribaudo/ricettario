@@ -10,10 +10,84 @@ const pantryCategories = [
 const classifications = ['pig', 'beef', 'chicken', 'fish', 'vegetarian'];
 const form = document.querySelector('#recipe-form');
 const tags = document.querySelector('#tags');
+const knownTagList = document.querySelector('#known-tags');
 const ingredients = document.querySelector('#ingredients');
 const message = document.querySelector('#form-message');
 const slugInput = form.elements.slug;
+const ingredientIds = new Set();
+const knownTags = new Map();
 let slugWasEdited = false;
+
+async function loadCatalog() {
+  const status = document.querySelector('#catalog-status');
+  try {
+    const indexResponse = await fetch('../recipes-index.json', { cache: 'no-store' });
+    if (!indexResponse.ok) throw new Error('Indice ricette non disponibile');
+    const index = await indexResponse.json();
+    let failedRecipes = 0;
+    const recipes = await Promise.all((index.recipes || []).map(async entry => {
+      try {
+        const response = await fetch(`../${entry.file}`, { cache: 'no-store' });
+        if (!response.ok) failedRecipes += 1;
+        return response.ok ? response.json() : null;
+      } catch {
+        failedRecipes += 1;
+        return null;
+      }
+    }));
+    recipes.filter(Boolean).forEach(recipe => {
+      collectIngredientIds(recipe.ingredients);
+      (recipe.tags || []).forEach(tag => {
+        const it = (tag.it || '').trim();
+        const en = (tag.en || '').trim();
+        if (it || en) knownTags.set(`${it.toLocaleLowerCase('it')}|${en.toLocaleLowerCase('it')}`, { it, en });
+      });
+    });
+    updateIngredientSuggestions();
+    renderKnownTags();
+    if (status) status.textContent = failedRecipes
+      ? `Catalogo parziale: ${failedRecipes} ricette non sono state caricate.`
+      : `Suggerimenti caricati: ${ingredientIds.size} ID e ${knownTags.size} tag.`;
+  } catch (error) {
+    console.error('Impossibile caricare il catalogo per i suggerimenti.', error);
+    if (status) status.textContent = 'Catalogo non caricato: avvia un server locale dalla cartella ricettatio e apri l’editor tramite http://localhost:<porta>/editor/, non come file locale.';
+  }
+}
+
+function collectIngredientIds(nodes = []) {
+  nodes.forEach(node => {
+    if (node.type === 'group') collectIngredientIds(node.items);
+    else if (node.type === 'item' && node.ingredientId) ingredientIds.add(node.ingredientId);
+  });
+}
+
+function updateIngredientSuggestions() {
+  document.querySelectorAll('[data-field="ingredientId"]').forEach(renderIngredientSuggestions);
+}
+
+function renderIngredientSuggestions(input) {
+  const host = input.closest('.ingredient-id-field')?.querySelector('.ingredient-id-suggestions');
+  if (!host) return;
+  const query = input.value.trim().toLocaleLowerCase('it');
+  const matches = [...ingredientIds]
+    .filter(id => !query || id.toLocaleLowerCase('it').includes(query))
+    .sort((a, b) => a.localeCompare(b, 'it'));
+  host.replaceChildren(...matches.map(id => {
+    const option = document.createElement('button');
+    option.type = 'button';
+    option.className = 'ingredient-id-suggestion';
+    option.textContent = id;
+    option.addEventListener('mousedown', event => event.preventDefault());
+    option.addEventListener('click', () => {
+      input.value = id;
+      input.dataset.edited = 'true';
+      host.hidden = true;
+      input.focus();
+    });
+    return option;
+  }));
+  host.hidden = matches.length === 0;
+}
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, character => ({
@@ -34,13 +108,33 @@ function addTag() {
   row.querySelector('input').focus();
 }
 
+function renderKnownTags() {
+  const known = [...knownTags.values()].sort((a, b) => a.it.localeCompare(b.it, 'it') || a.en.localeCompare(b.en, 'en'));
+  if (!known.length) {
+    knownTagList.innerHTML = '<p class="field-note">Non ci sono ancora tag salvati nelle ricette.</p>';
+    return;
+  }
+  knownTagList.replaceChildren(...known.map(tag => {
+    const label = document.createElement('label');
+    label.className = 'known-tag-option';
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.dataset.tagIt = tag.it;
+    checkbox.dataset.tagEn = tag.en;
+    const pair = document.createElement('span');
+    pair.innerHTML = `<span lang="it">${escapeHtml(tag.it || '—')}</span><span class="known-tag-separator" aria-hidden="true">↔</span><span lang="en">${escapeHtml(tag.en || '—')}</span>`;
+    label.append(checkbox, pair);
+    return label;
+  }));
+}
+
 function ingredientFields() {
   const classOptions = classifications.map(value => `<option value="${value}"${value === 'vegetarian' ? ' selected' : ''}>${value}</option>`).join('');
   const categoryOptions = pantryCategories.map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join('');
   return `<div class="ingredient-grid">
     <label class="wide">Ingrediente · IT<input data-field="nameIt" required placeholder="Pomodoro"></label>
     <label class="wide">Ingredient · EN<input data-field="nameEn" placeholder="Tomato"></label>
-    <label class="wide">ID dispensa<input data-field="ingredientId" required placeholder="pomodoro"></label>
+    <label class="wide ingredient-id-field">ID dispensa<input data-field="ingredientId" autocomplete="off" required placeholder="pomodoro"><span class="ingredient-id-suggestions" role="listbox" hidden></span></label>
     <label>Quantità<input data-field="quantity" placeholder="2"></label>
     <label>Unità / indicazione · IT<input data-field="unitIt" placeholder="g oppure q.b."></label>
     <label>Unit / note · EN<input data-field="unitEn" placeholder="g or to taste"></label>
@@ -139,10 +233,15 @@ function readRecipe() {
     slug: value('slug'),
     title: { it: value('titleIt'), en: value('titleEn') },
     image: value('image'),
-    tags: [...tags.children].map(row => ({
-      it: row.querySelector('[data-language="it"]').value.trim(),
-      en: row.querySelector('[data-language="en"]').value.trim()
-    })).filter(tag => tag.it || tag.en),
+    tags: [
+      ...[...knownTagList.querySelectorAll('[data-tag-it]:checked')].map(input => {
+        return { it: input.dataset.tagIt, en: input.dataset.tagEn };
+      }),
+      ...[...tags.children].map(row => ({
+        it: row.querySelector('[data-language="it"]').value.trim(),
+        en: row.querySelector('[data-language="en"]').value.trim()
+      })).filter(tag => tag.it || tag.en)
+    ],
     servings: Number(value('servings')),
     effort: Number(value('effort')),
     scale: Number(value('scale')),
@@ -200,12 +299,23 @@ form.addEventListener('input', event => {
   if (event.target === slugInput) slugWasEdited = true;
   if (event.target.name === 'titleIt' && !slugWasEdited) slugInput.value = slugify(event.target.value);
   if (event.target.matches('[data-field="ingredientId"]')) event.target.dataset.edited = 'true';
+  if (event.target.matches('[data-field="ingredientId"]')) renderIngredientSuggestions(event.target);
   if (event.target.matches('[data-field="nameIt"]')) {
     const idInput = event.target.closest('.ingredient-row').querySelector('[data-field="ingredientId"]');
     if (idInput && !idInput.dataset.edited) idInput.value = slugify(event.target.value);
   }
   message.textContent = '';
   document.querySelector('#generated-result').hidden = true;
+});
+
+form.addEventListener('focusin', event => {
+  if (event.target.matches('[data-field="ingredientId"]')) renderIngredientSuggestions(event.target);
+});
+
+document.addEventListener('click', event => {
+  if (!event.target.closest('.ingredient-id-field')) {
+    document.querySelectorAll('.ingredient-id-suggestions').forEach(host => { host.hidden = true; });
+  }
 });
 
 document.querySelector('#download').addEventListener('click', () => {
@@ -243,3 +353,4 @@ document.querySelector('#copy-index').addEventListener('click', async () => {
 });
 
 addIngredient();
+loadCatalog();

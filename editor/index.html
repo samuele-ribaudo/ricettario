@@ -9,9 +9,10 @@
   <meta name="description" content="Crea ricette compatibili con il ricettario e scarica il JSON da aggiungere al progetto.">
   <title>Editor ricette | Ricettario</title>
   <link rel="stylesheet" href="editor.css">
+  <link rel="stylesheet" href="autocomplete.css?v=20261013-2">
   <link rel="stylesheet" href="export.css">
-  <link rel="stylesheet" href="theme.css">
-  <script defer src="editor.js"></script>
+  <link rel="stylesheet" href="theme.css?v=20261013-3">
+  <script defer src="editor.js?v=20261013-2"></script>
 </head>
 <body>
   <header class="topbar">
@@ -34,18 +35,20 @@
           </div>
           <div class="fields three-columns rating-fields">
             <label class="field"><span>Porzioni <i>*</i></span><input name="servings" type="number" min="1" step="1" value="1" required></label>
-            <label class="field"><span>Sbatta <i>*</i></span><select name="effort" required><option value="1">1 · Minima</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5 · Massima</option></select></label>
+            <label class="field"><span>Sbatta <i>*</i></span><select name="effort" required><option value="0.5">0.5 · Minima</option><option value="1" selected>1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5 · Massima</option></select></label>
             <label class="field"><span>Scalabilità <i>*</i></span><select name="scale" required><option value="1">1 · Bassa</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5 · Alta</option></select></label>
           </div>
         </section>
 
         <section class="section-block" aria-labelledby="tags-heading">
-          <div class="section-heading"><span class="section-number">02</span><div><h2 id="tags-heading">Tag</h2><p>Etichette bilingui che aiutano a trovare la ricetta.</p></div><button class="button button-light button-small" type="button" data-action="add-tag"><span aria-hidden="true">＋</span> Aggiungi tag</button></div>
+          <div class="section-heading"><span class="section-number">02</span><div><h2 id="tags-heading">Tag</h2><p>Seleziona un tag esistente: italiano e inglese sono abbinati.</p></div></div>
+          <div id="known-tags" class="known-tag-list" aria-live="polite"><p class="field-note">Caricamento dei tag…</p></div>
+          <button class="button button-light button-small add-tag-button" type="button" data-action="add-tag"><span aria-hidden="true">＋</span> Aggiungi nuovo tag</button>
           <div id="tags" class="tag-list"></div>
         </section>
 
         <section class="section-block" aria-labelledby="ingredients-heading">
-          <div class="section-heading"><span class="section-number">03</span><div><h2 id="ingredients-heading">Ingredienti</h2><p>Organizza gli ingredienti in gruppi e aggiungi voci che non fanno parte della dispensa.</p></div></div>
+          <div class="section-heading"><span class="section-number">03</span><div><h2 id="ingredients-heading">Ingredienti</h2><p>Organizza gli ingredienti in gruppi e aggiungi voci che non fanno parte della dispensa. Gli ID esistenti compaiono mentre digiti.</p><small id="catalog-status" role="status" aria-live="polite">Caricamento del catalogo…</small></div></div>
           <div id="ingredients" class="ingredient-list"></div>
           <div class="heading-actions ingredient-actions"><button class="button button-light button-small" type="button" data-action="add-group"><span aria-hidden="true">＋</span> Gruppo</button><button class="button button-light button-small" type="button" data-action="add-ingredient"><span aria-hidden="true">＋</span> Ingrediente</button><button class="button button-light button-small" type="button" data-action="add-entry"><span aria-hidden="true">＋</span> Voce</button></div>
           <p class="field-note">Le voci vengono mostrate nella ricetta, ma non compaiono nella dispensa né vengono conteggiate tra gli ingredienti mancanti. Per un ingrediente senza quantità, inserisci l’indicazione (per esempio “q.b.” / “to taste”) nel campo unità: verrà mostrata da sola.</p>

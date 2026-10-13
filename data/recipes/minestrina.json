@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "minestrina",
+  "slug": "minestrina",
+  "title": {
+    "it": "Minestrina",
+    "en": "Broth soup"
+  },
+  "image": "images/recipes/minestrina.jpg",
+  "tags": [
+    {
+      "it": "con solo una pentola",
+      "en": "one pot meal"
+    }
+  ],
+  "servings": 1,
+  "effort": 0.5,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "entry",
+      "name": {
+        "it": "Acqua",
+        "en": "Water"
+      },
+      "quantity": "500",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      }
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Dado per brodo",
+        "en": "Stock cube"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "dado-per-brodo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Risoni (pastina)",
+        "en": "Risoni (pastina)"
+      },
+      "quantity": "60",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "risoni-pastina"
+    }
+  ],
+  "method": {
+    "it": "Portare l’acqua a bollore.\n\nAggiungere mezzo dado e mescolare fino a completo scioglimento.\n\nAssaggiare il brodo e, se necessario, aggiungere l’altra metà del dado.\n\nVersare i risoni e cuocere per circa 10 minuti, mescolando occasionalmente.",
+    "en": "Bring the water to a boil.\n\nAdd half the stock cube and stir until completely dissolved.\n\nTaste the broth and add the remaining half of the stock cube if needed.\n\nAdd the risoni and cook for about 10 minutes, stirring occasionally."
+  },
+  "notes": {
+    "it": "Per ottenere un pasto più sostanzioso, sostituire i risoni con tortellini al prosciutto, regolando il tempo di cottura in base alle indicazioni sulla confezione.",
+    "en": "For a heartier meal, replace the risoni with prosciutto-filled tortellini, adjusting the cooking time according to the package instructions."
+  },
+  "storage": {
+    "it": "",
+    "en": ""
+  }
+}

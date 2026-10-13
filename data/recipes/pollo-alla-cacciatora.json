@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "pollo-alla-cacciatora",
+  "slug": "pollo-alla-cacciatora",
+  "title": {
+    "it": "Pollo alla cacciatora",
+    "en": "Chicken cacciatore"
+  },
+  "image": "images/recipes/pollo-alla-cacciatora.jpg",
+  "tags": [
+    {
+      "it": "con solo una pentola",
+      "en": "one pot meal"
+    }
+  ],
+  "servings": 3,
+  "effort": 3,
+  "scale": 3,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Cosce di pollo",
+        "en": "Chicken thighs"
+      },
+      "quantity": "600",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "chicken",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "cosce-di-pollo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Passata di pomodoro",
+        "en": "Tomato sauce"
+      },
+      "quantity": "200",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "passata-di-pomodoro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Cipolla",
+        "en": "Onion"
+      },
+      "quantity": "1/2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "cipolla"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pinoli",
+        "en": "Pine nuts"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaino",
+        "en": "teaspoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "pinoli"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine d'oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Aglio (anche in polvere)",
+        "en": "Garlic (powdered is fine)"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "aglio"
+    },
+    {
+      "type": "group",
+      "name": {
+        "it": "Spezie",
+        "en": "Herbs and spices"
+      },
+      "items": [
+        {
+          "type": "item",
+          "name": {
+            "it": "Alloro",
+            "en": "Bay leaf"
+          },
+          "quantity": "3",
+          "unit": {
+            "it": "foglie",
+            "en": "leaves"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "alloro"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Rosmarino",
+            "en": "Reosemary"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "rosmarino"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Origano",
+            "en": "Oregano"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "origano"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Timo",
+            "en": "Thyme"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "timo"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Maggiorana",
+            "en": "Marjoram"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "maggiorana"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Pepe",
+            "en": "Black pepper"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": true,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "pepe"
+        }
+      ]
+    }
+  ],
+  "method": {
+    "it": "In una pentola fredda, versare un filo d’olio e adagiare il pollo con la pelle rivolta verso il basso. Accendere il fuoco a fiamma vivace e rosolare per 10 minuti, girandolo a metà cottura.\n\nAggiungere la cipolla tritata finemente, l’aglio e i pinoli, lasciando dorare per qualche minuto.\n\nAggiungere le spezie a piacere e mescolare per qualche istante, così da insaporire il tutto.\n\nUnire la passata di pomodoro e mezzo bicchiere d’acqua.\n\nCoprire e cuocere a fuoco basso per circa 30–40 minuti, fino a quando il pollo sarà ben cotto e tenero.",
+    "en": "In a cold pot, drizzle some olive oil and place the chicken skin-side down. Turn the heat to high and sear for 10 minutes, flipping halfway through.\n\nAdd the finely chopped onion, garlic, and pine nuts. Let them brown for a few minutes.\n\nAdd the herbs and spices to taste and stir briefly to release their flavors.\n\nPour in the tomato sauce and half a glass of water.\n\nCover and simmer over low heat for about 30–40 minutes, until the chicken is fully cooked and tender."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "Conservare in frigorifero per 3-4 giorni. Riscaldare in microonde per 2-3 minuri.",
+    "en": "Store in the fridge for 3–4 days. Reheat in the microwave for 2–3 minutes."
+  }
+}

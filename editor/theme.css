@@ -23,3 +23,8 @@
   .generated-message{color:#c8d0c4}
   .download-check{background:#2b3b30;color:#b5c99d}
 }
+
+@media(prefers-color-scheme:dark){
+  .ingredient-id-suggestions,.known-tag-option{background:#252a25;border-color:#454d44;color:var(--ink)}
+  .ingredient-id-suggestion:hover,.ingredient-id-suggestion:focus{background:#2b352a}
+}
