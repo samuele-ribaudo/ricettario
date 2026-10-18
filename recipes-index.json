@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "recipes": [
     {
+      "id": "gnocchi-alla-sorrentina",
+      "slug": "gnocchi-alla-sorrentina",
+      "file": "data/recipes/gnocchi-alla-sorrentina.json"
+    },
+    {
       "id": "pollo-alla-cacciatora",
       "slug": "pollo-alla-cacciatora",
       "file": "data/recipes/pollo-alla-cacciatora.json"
@@ -15,6 +20,11 @@
       "id": "minestra-arancione",
       "slug": "minestra-arancione",
       "file": "data/recipes/minestra-arancione.json"
+    },
+    {
+      "id": "pinsa",
+      "slug": "pinsa",
+      "file": "data/recipes/pinsa.json"
     },
     {
       "id": "pollo-al-curry",

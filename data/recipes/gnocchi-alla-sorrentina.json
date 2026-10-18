@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "gnocchi-alla-sorrentina",
+  "slug": "gnocchi-alla-sorrentina",
+  "title": {
+    "it": "Gnocchi alla sorrentina",
+    "en": "Gnocchi alla sorrentina"
+  },
+  "image": "images/recipes/gnocchi-alla-sorrentina.jpg",
+  "tags": [
+    {
+      "it": "friggitrice ad aria",
+      "en": "air fryer"
+    }
+  ],
+  "servings": 2,
+  "effort": 1,
+  "scale": 2,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Gnocchi",
+        "en": "Gnocchi"
+      },
+      "quantity": "500",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "gnocchi"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Passata di pomodoro",
+        "en": "Tomato sauce"
+      },
+      "quantity": "200",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "passata-di-pomodoro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine d'oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "cucchiai",
+        "en": "tablespoons"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Mozzarella secca",
+        "en": "Low-moisture mozzarella"
+      },
+      "quantity": "100",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "mozzarella-secca"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Parmigiano grattugiato",
+        "en": "Grated parmesan cheese"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "parmigiano"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Origano",
+        "en": "Oregano"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": true,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "origano"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Aglio",
+        "en": "Garlic"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": true,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "aglio"
+    }
+  ],
+  "method": {
+    "it": "Cuocere la passata di pomodoro in una pentola con olio extravergine d’oliva, origano, aglio e sale a piacere per circa 10 minuti a fuoco lento.\n\nTagliare la mozzarella asciutta a dadini o listarelle.\n\nCuocere gli gnocchi in acqua salata e scolarli non appena iniziano a venire a galla.\n\nCondire gli gnocchi con il sugo di pomodoro e la mozzarella.\n\nTrasferire il tutto in due terrine o contenitori adatti alla cottura in forno.\n\nCospargere la superficie con abbondante parmigiano grattugiato.\n\nCuocere in friggitrice ad aria a 180 °C per 18–20 minuti, o fino a ottenere una crosta dorata in superficie.",
+    "en": "Cook the tomato passata in a pot with extra virgin olive oil, oregano, garlic, and salt to taste for about 10 minutes over low heat.\n\nCut the low-moisture mozzarella into small cubes or strips.\n\nCook the gnocchi in salted water and drain as soon as they start floating to the surface.\n\nToss the gnocchi with the tomato sauce and mozzarella.\n\nTransfer everything into two oven-safe baking dishes.\n\nSprinkle a generous amount of grated parmesan cheese over the top.\n\nAir-fry at 180°C (350°F) for 18–20 minutes, or until a golden crust forms on the surface."
+  },
+  "notes": {
+    "it": "Per velocizzare la preparazione, acquistare la mozzarella secca già grattugiata.\n\nIn alternativa, utilizzare la mozzarella fresca, lasciandola scolare per circa 30 minuti prima dell’utilizzo, per eliminare l’acqua in eccesso.",
+    "en": "To save time, buy pre-shredded low-moisture mozzarella.\n\nAlternatively, use fresh mozzarella and let it drain for about 30 minutes before use to remove excess moisture."
+  },
+  "storage": {
+    "it": "Conservare in frigorifero senza aggiungere il parmigiano grattugiato.\n\nAl momento della cottura, cospargere la superficie con il parmigiano e cuocere in friggitrice ad aria a 180 °C fino a ottenere una crosta dorata.",
+    "en": "Store in the fridge without adding the grated parmesan.\n\nWhen ready to cook, sprinkle the parmesan over the top and air-fry at 180°C (350°F) until a golden crust forms."
+  }
+}

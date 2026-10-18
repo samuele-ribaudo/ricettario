@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "pinsa",
+  "slug": "pinsa",
+  "title": {
+    "it": "Pinsa",
+    "en": "Pinsa"
+  },
+  "image": "images/recipes/pinsa.jpg",
+  "tags": [
+    {
+      "it": "senza sporcare",
+      "en": "minimal cleanup"
+    }
+  ],
+  "servings": 1,
+  "effort": 0.5,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Base per pinsa",
+        "en": "Pinsa base"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "base-per-pinsa"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Mozzarella secca",
+        "en": "Low-moisture mozzarella"
+      },
+      "quantity": "75",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "mozzarella-secca"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Passata di pomodoro",
+        "en": "Tomato sauce"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "passata-di-pomodoro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine d'oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Origano",
+        "en": "Oregano"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": true,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "origano"
+    }
+  ],
+  "method": {
+    "it": "Preriscaldare il forno a 220 °C.\n\nDistribuire la passata di pomodoro sulla base per pinsa, coprendo uniformemente la superficie con l’aiuto di un cucchiaio. Aggiungere un filo d’olio extravergine d’oliva.\n\nAggiungere, a piacere, una spolverata di origano.\n\nDistribuire uniformemente la mozzarella grattugiata sulla superficie e completare con una spolverata di parmigiano grattugiato.\n\nCuocere direttamente sulla griglia del forno, senza utilizzare una teglia, per 7–8 minuti, o fino a quando la mozzarella sarà sciolta e la pinsa risulterà dorata.",
+    "en": "Preheat the oven to 220°C (425°F).\n\nSpread the tomato passata evenly over the pinsa base using a spoon. Drizzle with extra virgin olive oil.\n\nSprinkle with oregano, if desired.\n\nEvenly distribute the shredded mozzarella over the surface and finish with a sprinkle of grated Parmesan cheese.\n\nPlace the pinsa directly on the oven rack, without a baking tray, and bake for 7–8 minutes, or until the mozzarella has melted and the crust is golden."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "",
+    "en": ""
+  }
+}

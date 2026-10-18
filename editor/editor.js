@@ -17,6 +17,7 @@ const slugInput = form.elements.slug;
 const ingredientIds = new Set();
 const knownTags = new Map();
 let slugWasEdited = false;
+let imageWasEdited = false;
 
 async function loadCatalog() {
   const status = document.querySelector('#catalog-status');
@@ -297,7 +298,11 @@ document.addEventListener('click', event => {
 
 form.addEventListener('input', event => {
   if (event.target === slugInput) slugWasEdited = true;
+  if (event.target.name === 'image') imageWasEdited = true;
   if (event.target.name === 'titleIt' && !slugWasEdited) slugInput.value = slugify(event.target.value);
+  if ((event.target.name === 'titleIt' && !slugWasEdited) || event.target === slugInput) {
+    if (!imageWasEdited) form.elements.image.value = slugInput.value ? `images/recipes/${slugInput.value}.jpg` : '';
+  }
   if (event.target.matches('[data-field="ingredientId"]')) event.target.dataset.edited = 'true';
   if (event.target.matches('[data-field="ingredientId"]')) renderIngredientSuggestions(event.target);
   if (event.target.matches('[data-field="nameIt"]')) {

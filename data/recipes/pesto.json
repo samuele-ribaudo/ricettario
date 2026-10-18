@@ -13,7 +13,7 @@
       "en": "sauce"
     }
   ],
-  "servings": 6,
+  "servings": 5,
   "effort": 2,
   "scale": 5,
   "ingredients": [
@@ -68,7 +68,7 @@
     {
       "type": "item",
       "name": {
-        "it": "Olio extravergine di oliva",
+        "it": "Olio extravergine d'oliva",
         "en": "Extra virgin olive oil"
       },
       "quantity": "",

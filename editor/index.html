@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="autocomplete.css?v=20261013-2">
   <link rel="stylesheet" href="export.css">
   <link rel="stylesheet" href="theme.css?v=20261013-3">
-  <script defer src="editor.js?v=20261013-2"></script>
+  <script defer src="editor.js?v=20261018-1"></script>
 </head>
 <body>
   <header class="topbar">
@@ -31,7 +31,7 @@
             <label class="field"><span>Titolo in italiano <i>*</i></span><input name="titleIt" required placeholder="Pasta ai fagioli"></label>
             <label class="field"><span>Titolo in inglese</span><input name="titleEn" placeholder="Pasta and beans"></label>
             <label class="field"><span>ID e slug <i>*</i></span><input name="slug" required pattern="[a-z0-9]+(?:-[a-z0-9]+)*" autocomplete="off" placeholder="pasta-ai-fagioli"><small>Minuscole, numeri e trattini; deve essere unico nel ricettario.</small></label>
-            <label class="field"><span>Percorso foto</span><input name="image" placeholder="images/recipes/pasta-ai-fagioli.jpg"><small>Carica la foto in images/recipes/; lascia vuoto se non ne hai una.</small></label>
+            <label class="field"><span>Percorso foto</span><input name="image" placeholder="images/recipes/pasta-ai-fagioli.jpg"><small>Si aggiorna con titolo e slug; puoi modificarlo. Carica la foto in images/recipes/.</small></label>
           </div>
           <div class="fields three-columns rating-fields">
             <label class="field"><span>Porzioni <i>*</i></span><input name="servings" type="number" min="1" step="1" value="1" required></label>

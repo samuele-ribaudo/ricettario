@@ -6,3 +6,10 @@
 @media print{body{background:white;color:#171717;font:11pt Georgia,serif}.site-header,.mobile-nav,footer,.recipe-actions,.back-link{display:none!important}main{max-width:none;padding:0}.recipe-page{max-width:none}.recipe-page h1{font-size:26pt}.recipe-hero{max-height:250px;aspect-ratio:1.8;object-fit:contain;object-position:left center}.recipe-columns{grid-template-columns:38% 1fr;gap:25px}.recipe-page h2{font-size:18pt}.recipe-summary,.tag{color:#222;background:none}.recipe-card,.recipe-text p,li,h2,h3{break-inside:avoid}a{color:inherit}.optional{font-style:italic}.cookbook-about{break-before:page}.recipe-tags{border-color:#aaa}}
 
 .half-star{display:inline-block;color:transparent;background:linear-gradient(90deg,#777a70 50%,#c6c5bc 50%);-webkit-background-clip:text;background-clip:text}
+/* Card layout refinements: reserve room for the favourite control and fill the list thumbnail. */
+.card-title{margin-right:44px}.card-meta{padding-right:44px}
+.recipe-grid.compact .recipe-card{grid-template-columns:88px minmax(0,1fr);min-height:88px}
+.compact .recipe-photo,.compact .placeholder{width:88px;height:100%;min-height:88px;aspect-ratio:auto;object-fit:cover;align-self:stretch}
+.compact .card-body{min-width:0;padding-right:58px}
+.compact .card-title{margin-right:0}.compact .card-meta{padding-right:0}
+@media(max-width:420px){.recipe-grid.compact .recipe-card{grid-template-columns:74px minmax(0,1fr)}.compact .recipe-photo,.compact .placeholder{width:74px;height:100%;min-height:74px}.compact .card-body{padding-right:54px}}
