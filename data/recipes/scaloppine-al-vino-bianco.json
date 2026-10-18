@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "scaloppine-al-vino-bianco",
+  "slug": "scaloppine-al-vino-bianco",
+  "title": {
+    "it": "Scaloppine al vino bianco",
+    "en": "Escalopes with white wine"
+  },
+  "image": "images/recipes/scaloppine-al-vino-bianco.jpg",
+  "tags": [],
+  "servings": 2,
+  "effort": 2,
+  "scale": 2,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Lonza di maiale a fette",
+        "en": "Sliced pork loin"
+      },
+      "quantity": "400",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "pig",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "lonza-di-maiale"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Vino bianco",
+        "en": "White wine"
+      },
+      "quantity": "100",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "vino-bianco"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Burro",
+        "en": "Butter"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "noce",
+        "en": "knob"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "burro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Farina",
+        "en": "Flour"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "as needed"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "farina"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Alloro",
+        "en": "Bay"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "foglie",
+        "en": "leaves"
+      },
+      "optional": true,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "alloro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Aglio",
+        "en": "Garlic"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "aglio"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Rosmarino",
+        "en": "Rosemary"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": true,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "rosmarino"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pepe",
+        "en": "Black pepper"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "pepe"
+    }
+  ],
+  "method": {
+    "it": "Battere le fettine di maiale con un batticarne per renderle più sottili e uniformi.\n\nInfarinare le fettine su entrambi i lati, eliminando la farina in eccesso.\n\nSciogliere il burro in una padella con l’aglio, l’alloro e il rosmarino. Lasciare insaporire per qualche minuto.\n\nAlzare la fiamma e rosolare le fettine per circa 30–40 secondi per lato.\n\nSfumare con il vino bianco e lasciare evaporare l’alcol.\n\nAggiungere sale e pepe a piacere. Coprire con un coperchio e cuocere per altri 4 minuti a fuoco alto, girando le fettine a metà cottura e verificando che siano completamente cotte.",
+    "en": "Pound the pork slices with a meat mallet until thin and even.\n\nLightly coat both sides of the pork slices with flour, shaking off any excess.\n\nMelt the butter in a skillet with the garlic, bay leaves, and rosemary. Let the aromatics infuse the butter for a few minutes.\n\nIncrease the heat and sear the pork slices for about 30–40 seconds per side.\n\nDeglaze the pan with the white wine and let the alcohol evaporate.\n\nSeason with salt and black pepper to taste. Cover with a lid and cook for another 4 minutes over high heat, turning the slices halfway through and ensuring the pork is thoroughly cooked."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "Conservare in frigorifero in un contenitore ermetico per un massimo di 3 giorni.\n\nRiscaldare al microonde prima di servire.",
+    "en": "Store in an airtight container in the fridge for up to 3 days.\n\nReheat in the microwave before serving."
+  }
+}

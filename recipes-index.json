@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "recipes": [
     {
+      "id": "scaloppine-al-vino-bianco",
+      "slug": "scaloppine-al-vino-bianco",
+      "file": "data/recipes/scaloppine-al-vino-bianco.json"
+    },
+    {
       "id": "gnocchi-alla-sorrentina",
       "slug": "gnocchi-alla-sorrentina",
       "file": "data/recipes/gnocchi-alla-sorrentina.json"
