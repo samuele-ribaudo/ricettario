@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "spezzatino-ai-peperoni",
+  "slug": "spezzatino-ai-peperoni",
+  "title": {
+    "it": "Spezzatino ai peperoni",
+    "en": "Beef and bell pepper stew"
+  },
+  "image": "images/recipes/spezzatino-ai-peperoni.jpg",
+  "tags": [],
+  "servings": 4,
+  "effort": 4,
+  "scale": 4,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Manzo",
+        "en": "Beef"
+      },
+      "quantity": "800",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "beef",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "manzo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Cipolla",
+        "en": "Onion"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "cipolla"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Peperoni",
+        "en": "Bell peppers"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "peperoni"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Passata di pomodoro",
+        "en": "Tomato sauce"
+      },
+      "quantity": "200",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "passata-di-pomodoro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Concentrato di pomodoro",
+        "en": "Tomato paste"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "spoon",
+        "en": "tablespoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "concentrato-di-pomodoro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio extravergine d'oliva",
+        "en": "Extra virgin olive oil"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "cucchiai",
+        "en": "tablespoons"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-extravergine"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Dado per brodo",
+        "en": "Stock cube"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "dado-per-brodo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Paprika",
+        "en": "Paprika"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaio",
+        "en": "tablespoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "paprika"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Alloro",
+        "en": "Bay"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "foglie",
+        "en": "leaves"
+      },
+      "optional": true,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "alloro"
+    },
+    {
+      "type": "entry",
+      "name": {
+        "it": "Acqua",
+        "en": "Water"
+      },
+      "quantity": "500",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      }
+    }
+  ],
+  "method": {
+    "it": "Preparare il brodo portando a bollore 500 ml d’acqua e sciogliendovi il dado.\n\nTritare finemente la cipolla. Scaldare l’olio in una pentola e fare appassire la cipolla a fuoco medio per 5–6 minuti.\n\nTagliare il manzo a cubetti di 3–4 cm. Alzare la fiamma e rosolare la carne per qualche minuto, mescolando continuamente.\n\nAggiungere la paprika e il concentrato di pomodoro e lasciare insaporire per un minuto.\n\nAbbassare la fiamma al minimo. Aggiungere la passata di pomodoro, il brodo caldo e le foglie di alloro. Coprire e cuocere a fuoco basso per 1 ora e 30 minuti, mescolando ogni 20–30 minuti. Il composto non deve bollire, ma solo sobbollire.\n\nNel frattempo, tagliare i peperoni a pezzi di 3–4 cm. Trascorsa l’ora e mezza, aggiungerli alla pentola, coprire e cuocere per un’altra ora.\n\nSe il sugo è troppo liquido, togliere il coperchio e lasciare bollire, mescolando per evitare che il fondo si bruci, fino a raggiungere la densità desiderata.",
+    "en": "Prepare the broth by bringing 500 ml of water to a boil and dissolving the bouillon cube in it.\n\nFinely chop the onion. Heat the oil in a pot and cook the onion over medium heat for 5–6 minutes, until softened.\n\nCut the beef into 3–4 cm cubes. Increase the heat and brown the meat for a few minutes, stirring continuously.\n\nAdd the paprika and tomato paste and cook for another minute to develop the flavors.\n\nReduce the heat to the lowest setting. Add the tomato purée, hot broth, and bay leaves. Cover and cook over low heat for 1 hour and 30 minutes, stirring every 20–30 minutes. The mixture should not boil, but only simmer gently.\n\nMeanwhile, cut the bell peppers into 3–4 cm pieces. \n\nAfter the first 1 hour and 30 minutes of cooking, add them to the pot, cover, and cook for another hour.\n\nIf the sauce is too thin, remove the lid and let it boil, stirring to prevent the bottom from burning, until it reaches the desired thickness."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "Conserva in frigorifero in un contenitore ermetico per 3–4 giorni. Riscalda nel microonde fino a quando è ben caldo.",
+    "en": "Store in an airtight container in the fridge for 3–4 days. Reheat in the microwave until thoroughly hot."
+  }
+}

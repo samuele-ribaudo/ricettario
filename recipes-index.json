@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "recipes": [
     {
+      "id": "spezzatino-ai-peperoni",
+      "slug": "spezzatino-ai-peperoni",
+      "file": "data/recipes/spezzatino-ai-peperoni.json"
+    },
+    {
       "id": "scaloppine-al-vino-bianco",
       "slug": "scaloppine-al-vino-bianco",
       "file": "data/recipes/scaloppine-al-vino-bianco.json"
