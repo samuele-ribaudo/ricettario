@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "recipes": [
     {
+      "id": "crepe",
+      "slug": "crepe",
+      "file": "data/recipes/crepe.json"
+    },
+    {
+      "id": "amatriciana",
+      "slug": "amatriciana",
+      "file": "data/recipes/amatriciana.json"
+    },
+    {
       "id": "spezzatino-ai-peperoni",
       "slug": "spezzatino-ai-peperoni",
       "file": "data/recipes/spezzatino-ai-peperoni.json"

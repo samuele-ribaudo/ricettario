@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "amatriciana",
+  "slug": "amatriciana",
+  "title": {
+    "it": "Amatriciana",
+    "en": "Amatriciana"
+  },
+  "image": "images/recipes/amatriciana.jpg",
+  "tags": [
+    {
+      "it": "sugo",
+      "en": "sauce"
+    },
+    {
+      "it": "tradizione",
+      "en": "tradition"
+    }
+  ],
+  "servings": 1,
+  "effort": 1,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Guanciale",
+        "en": "Guanciale"
+      },
+      "quantity": "40",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "pig",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "guanciale"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Passata di pomodoro",
+        "en": "Tomato sauce"
+      },
+      "quantity": "80",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥫 Legumi e conserve",
+      "ingredientId": "passata-di-pomodoro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pecorino romano DOP",
+        "en": "Pecorino romano DOP"
+      },
+      "quantity": "40",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "pecorino"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Vino bianco",
+        "en": "White wine"
+      },
+      "quantity": "60",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "vino-bianco"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Pepe",
+        "en": "Black pepper"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "pepe"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Peperoncino",
+        "en": "Chili flakes"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "peperoncino"
+    },
+    {
+      "type": "entry",
+      "name": {
+        "it": "Pasta (mezze maniche)",
+        "en": "Pasta (mezze maniche)"
+      },
+      "quantity": "150",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      }
+    }
+  ],
+  "method": {
+    "it": "Tagliare il guanciale a dadini.\n\nMettere il guanciale in un pentolino ancora freddo, accendere il fuoco a intensità media e lasciarlo rosolare lentamente fino a renderlo dorato e croccante, facendo sciogliere il grasso.\n\nAggiungere pepe nero e peperoncino a piacere.\n\nSfumare con il vino bianco e lasciare cuocere fino a completa evaporazione dell’alcol.\n\nAggiungere la passata di pomodoro e lasciar cuocere a fuoco basso per 10–15 minuti, mescolando di tanto in tanto.\n\nNel frattempo, cuocere la pasta in abbondante acqua leggermente e grattugiare il pecorino romano DOP.\n\nScolare la pasta al dente, conservando un po’ di acqua di cottura. Aggiungere il sugo e il pecorino grattugiato, mescolando energicamente. Se necessario, aggiungere poca acqua di cottura per ottenere una consistenza cremosa e ben amalgamata.",
+    "en": "Cut the guanciale into small cubes.\n\nPlace the guanciale in a cold saucepan, turn the heat to medium, and let it cook slowly until golden brown and crispy, allowing the fat to render.\n\nAdd black pepper and chili flakes to taste.\n\nDeglaze with white wine and let it simmer until the alcohol has completely evaporated.\n\nAdd the tomato sauce and simmer over low heat for 10–15 minutes, stirring occasionally.\n\nMeanwhile, cook the pasta in a large pot of lightly salted boiling water and grate the Pecorino Romano PDO cheese.\n\nDrain the pasta while still al dente, reserving some of the cooking water. Add the sauce and grated Pecorino, stirring vigorously to combine. If necessary, add a little pasta water to achieve a smooth, creamy consistency."
+  },
+  "notes": {
+    "it": "Per evitare schizzi di grasso sul piano cottura, rosolare il guanciale con un coperchio. A fine cottura, rimuovere il coperchio rapidamente per evitare che la condensa accumulata ricada nel grasso bollente.",
+    "en": "To prevent grease from splattering onto the stovetop, cook the guanciale with a lid on. Once cooked, remove the lid quickly to prevent accumulated condensation from dripping into the hot fat."
+  },
+  "storage": {
+    "it": "Se si è fatta una dose maggiore di sugo, conservare in un contenitore ermetico in frigorifero per un massimo di 3 giorni.",
+    "en": "If you have made extra sauce, store it in an airtight container in the fridge for up to 3 days."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "crepe",
+  "slug": "crepe",
+  "title": {
+    "it": "Crêpe",
+    "en": "Crêpe"
+  },
+  "image": "images/recipes/crepe.jpg",
+  "tags": [
+    {
+      "it": "Giulia",
+      "en": "Giulia"
+    }
+  ],
+  "servings": 2,
+  "effort": 3,
+  "scale": 2,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Uova",
+        "en": "Eggs"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "uova"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Latte",
+        "en": "Milk"
+      },
+      "quantity": "200",
+      "unit": {
+        "it": "ml",
+        "en": "ml"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "latte"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Farina",
+        "en": "Flour"
+      },
+      "quantity": "100",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "farina"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Burro",
+        "en": "Butter"
+      },
+      "quantity": "15",
+      "unit": {
+        "it": "g fuso + 1 noce",
+        "en": "g melted + 1 knob"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥛 Latticini e uova",
+      "ingredientId": "burro"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Sale",
+        "en": "Salt"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "pizzico",
+        "en": "pinch"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "sale"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Zucchero",
+        "en": "Sugar"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaino",
+        "en": "teaspoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "zucchero"
+    }
+  ],
+  "method": {
+    "it": "In un contenitore, sbattere l’uovo con il sale e lo zucchero fino a ottenere un composto omogeneo.\n\nAggiungere gradualmente la farina, continuando a mescolare per evitare la formazione di grumi.\n\nVersare il latte poco alla volta, mescolando fino a ottenere una pastella liscia e fluida. Aggiungere infine il burro fuso e amalgamare bene.\n\nScaldare una padella antiaderente e sciogliere una piccola noce di burro. Versare un mestolo di pastella al centro della padella e inclinarla delicatamente, ruotandola per distribuirla uniformemente su tutta la superficie.\n\nCuocere a fuoco medio fino a quando la superficie risulterà asciutta e i bordi inizieranno a staccarsi. Girare la crêpe con l’aiuto di una spatola e cuocere ancora per circa un minuto sull’altro lato.\n\nRipetere l’operazione fino all’esaurimento dell’impasto, ottenendo circa 6 crêpe.\n\nFarcire a piacere e gustare ancora calde.",
+    "en": "In a mixing bowl, beat the egg with the salt and sugar until smooth.\n\nGradually add the flour, stirring continuously to prevent lumps from forming.\n\nSlowly pour in the milk, mixing until a smooth, runny batter forms. Finally, add the melted butter and mix well until fully incorporated.\n\nHeat a nonstick pan and melt a small knob of butter. Pour a ladleful of batter into the center of the pan and gently tilt and rotate it to spread the batter evenly over the entire surface.\n\nCook over medium heat until the surface is dry and the edges begin to lift. Flip the crêpe using a spatula and cook for another minute on the other side.\n\nRepeat until all the batter has been used, making approximately 6 crêpes.\n\nFill as desired and enjoy while still warm."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "",
+    "en": ""
+  }
+}
