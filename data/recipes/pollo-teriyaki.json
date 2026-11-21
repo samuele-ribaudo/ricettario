@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "pollo-teriyaki",
+  "slug": "pollo-teriyaki",
+  "title": {
+    "it": "Pollo teriyaki",
+    "en": "Teriyaki chicken"
+  },
+  "image": "images/recipes/pollo-teriyaki.jpg",
+  "tags": [],
+  "servings": 1,
+  "effort": 1,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "item",
+      "name": {
+        "it": "Petto di pollo",
+        "en": "Chicken breast"
+      },
+      "quantity": "200",
+      "unit": {
+        "it": "g",
+        "en": "g"
+      },
+      "optional": false,
+      "classification": "chicken",
+      "category": "🥩 Carne e salumi",
+      "ingredientId": "petto-di-pollo"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Farina",
+        "en": "Flour"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "as needed"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🍝 Pasta, riso e cereali",
+      "ingredientId": "farina"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Olio di semi",
+        "en": "Vegetable oil"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "olio-di-semi"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Salsa di soia",
+        "en": "Soy sauce"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "cucchiaini",
+        "en": "teaspoons"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "salsa-di-soia"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Salsa teriyaki",
+        "en": "Teriyaki sauce"
+      },
+      "quantity": "2",
+      "unit": {
+        "it": "cucchiai",
+        "en": "tablespoons"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "salsa-teriyaki"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Miele",
+        "en": "Honey"
+      },
+      "quantity": "1",
+      "unit": {
+        "it": "cucchiaio",
+        "en": "tablespoon"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "miele"
+    },
+    {
+      "type": "item",
+      "name": {
+        "it": "Semi di sesamo",
+        "en": "Sesame seeds"
+      },
+      "quantity": "",
+      "unit": {
+        "it": "q.b.",
+        "en": "to taste"
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🧂 Spezie, condimenti e ingredienti vari",
+      "ingredientId": "semi-di-sesamo"
+    }
+  ],
+  "method": {
+    "it": "Battere leggermente il petto di pollo con un batticarne per renderlo più tenero. Tagliarlo a bocconcini di circa 3–4 cm e passarli leggermente nella farina, eliminando quella in eccesso.\n\nIn una padella, scaldare un filo d'olio di semi a fuoco medio-alto. Aggiungere il pollo e cuocerlo per circa 4–5 minuti, girando i bocconcini a metà cottura, fino a ottenere una leggera doratura e una cottura completa.\n\nAbbassare la fiamma, aggiungere la salsa di soia, la salsa teriyaki e il miele. Mescolare per circa 1–2 minuti, fino a quando la salsa si sarà addensata e avrà avvolto uniformemente il pollo.\n\nSpegnere il fuoco, aggiungere i semi di sesamo e mescolare. Servire caldo, accompagnando con riso bianco.",
+    "en": "Lightly pound the chicken breast with a meat mallet to tenderize it. Cut it into bite-sized pieces, approximately 3–4 cm, and lightly coat them with flour, shaking off any excess.\n\nHeat a drizzle of vegetable oil in a pan over medium-high heat. Add the chicken and cook for approximately 4–5 minutes, turning the pieces halfway through, until lightly golden and fully cooked.\n\nReduce the heat, add the soy sauce, teriyaki sauce, and honey. Stir for approximately 1–2 minutes, until the sauce thickens and evenly coats the chicken.\n\nTurn off the heat, add the sesame seeds, and stir. Serve hot with steamed white rice."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "",
+    "en": ""
+  }
+}

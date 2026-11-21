@@ -70,6 +70,22 @@
       "ingredientId": "carote"
     },
     {
+      "type": "item",
+      "name": {
+        "it": "Cipolla",
+        "en": "Onion"
+      },
+      "quantity": "1/2",
+      "unit": {
+        "it": "",
+        "en": ""
+      },
+      "optional": false,
+      "classification": "vegetarian",
+      "category": "🥕 Verdura e frutta",
+      "ingredientId": "cipolla"
+    },
+    {
       "type": "entry",
       "name": {
         "it": "Acqua",

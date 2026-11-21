@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "pepata-di-cozze",
+  "slug": "pepata-di-cozze",
+  "title": {
+    "it": "Pepata di cozze",
+    "en": "Mussels with black pepper"
+  },
+  "image": "images/recipes/pepata-di-cozze.jpg",
+  "tags": [
+    {
+      "it": "con solo una pentola",
+      "en": "one pot meal"
+    }
+  ],
+  "servings": 1,
+  "effort": 1,
+  "scale": 1,
+  "ingredients": [
+    {
+      "type": "group",
+      "name": {
+        "it": "Per la pepata",
+        "en": "For the mussels"
+      },
+      "items": [
+        {
+          "type": "item",
+          "name": {
+            "it": "Cozze",
+            "en": "Mussels"
+          },
+          "quantity": "1",
+          "unit": {
+            "it": "kg",
+            "en": "kg"
+          },
+          "optional": false,
+          "classification": "fish",
+          "category": "🐟 Pesce",
+          "ingredientId": "cozze"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Aglio",
+            "en": "Garlic"
+          },
+          "quantity": "2",
+          "unit": {
+            "it": "spicchi",
+            "en": "cloves"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🥕 Verdura e frutta",
+          "ingredientId": "aglio"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Vino bianco",
+            "en": "White wine"
+          },
+          "quantity": "1/2",
+          "unit": {
+            "it": "bicchiere",
+            "en": "glass"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "vino-bianco"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Prezzemolo",
+            "en": "Parsley"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "prezzemolo"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Pepe",
+            "en": "Black pepper"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "pepe"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Olio extravergine d'oliva",
+            "en": "Extra virgin olive oil"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "olio-extravergine"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": {
+        "it": "Per il pane tostato",
+        "en": "For the toasted bread"
+      },
+      "items": [
+        {
+          "type": "item",
+          "name": {
+            "it": "Pane",
+            "en": "Bread"
+          },
+          "quantity": "6",
+          "unit": {
+            "it": "fette",
+            "en": "slices"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🍝 Pasta, riso e cereali",
+          "ingredientId": "pane"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Aglio",
+            "en": "Garlic"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "",
+            "en": ""
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🥕 Verdura e frutta",
+          "ingredientId": "aglio"
+        },
+        {
+          "type": "item",
+          "name": {
+            "it": "Olio extravergine d'oliva",
+            "en": "Extra virgin olive oil"
+          },
+          "quantity": "",
+          "unit": {
+            "it": "q.b.",
+            "en": "to taste"
+          },
+          "optional": false,
+          "classification": "vegetarian",
+          "category": "🧂 Spezie, condimenti e ingredienti vari",
+          "ingredientId": "olio-extravergine"
+        }
+      ]
+    }
+  ],
+  "method": {
+    "it": "Tagliare il pane a fette spesse circa 1-2 cm, disporle nel cestello dell'air fryer, cospargerle con un filo d'olio e tostarle a 180 °C per 6–7 minuti, o fino a doratura. Sfornare e strofinare uno spicchio d'aglio sulla superficie delle fette ancora calde.\n\nSciacquarle sotto acqua corrente fredda, eliminare il bisso (la barbetta) e raschiare eventuali incrostazioni dal guscio. Scartare le cozze con il guscio rotto e quelle che, dopo averle battute leggermente, rimangono aperte.\n\nIn una pentola capiente, scaldare un filo d'olio extravergine d'oliva con due spicchi d'aglio. Aggiungere le cozze, alzare la fiamma e sfumare con il vino bianco. Coprire con un coperchio e cuocere per 4–6 minuti, scuotendo occasionalmente la pentola, fino all'apertura delle cozze.\n\nSpegnere il fuoco, aggiungere abbondante pepe nero macinato e prezzemolo tritato. Mescolare e servire ben calde accompagnandole con i crostini di pane.",
+    "en": "Cut the bread into slices about 1-2 cm thick, arrange them in the air fryer basket, drizzle with olive oil, and toast at 180 °C for 6–7 minutes, or until golden brown. Remove from the air fryer and rub a garlic clove over the surface of the still-warm slices.\n\nRinse the mussels under cold running water, remove the beards, and scrape off any barnacles or deposits from the shells. Discard any mussels with broken shells, as well as any that remain open after being tapped gently.\n\nIn a large pot, heat a drizzle of extra virgin olive oil with two garlic cloves. Add the mussels, turn up the heat, and pour in the white wine. Cover with a lid and cook for 4–6 minutes, occasionally shaking the pot, until the mussels open.\n\nTurn off the heat, add plenty of freshly ground black pepper and chopped parsley. Stir and serve hot with the toasted bread."
+  },
+  "notes": {
+    "it": "",
+    "en": ""
+  },
+  "storage": {
+    "it": "",
+    "en": ""
+  }
+}
